@@ -1,0 +1,157 @@
+#searchResult{
+  height: 850px;
+  font-family: monospace,cursive;
+}
+
+#searchResultTittle{
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  left: 45px;
+  top:30px;
+}
+#messageBoard{
+  width: 1190px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+#petImgDiv{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 45px;
+  top:90px;
+  overflow: hidden;
+}
+#petImg{
+  width: 100%;
+  display:block;
+  margin:auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+fieldset{
+  position: absolute;
+  font-size: 22px;
+  border-radius: 5px;
+}
+#PetName{
+  position: absolute;
+  right: 200px;
+  width: 350px;
+  top:50px;
+  font-size: 40px;
+  text-align: center;
+  font-family: fantasy;
+}
+#PetData{
+  max-width: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  left: 500px;
+  top: 125px;
+}
+#Contact{
+  left: 850px;
+  top: 125px;
+  width: 175px;
+  max-width: 300px;
+}
+#LostDayTime{
+  left: 45px;
+  top: 525px;
+}
+#LostPlace{
+  left: 45px;
+  top: 650px;
+  width: 300px;
+  max-width: 450px; 
+  background-color: white;
+}
+#LostPlaceMap{
+  left: 500px;
+  top: 450px;
+  width: 550px;
+  height: 350px;
+  background-color: white;
+}
+#LostPlaceMap #thisIframe{
+  width: 100%;
+  height: 100%;
+}
+#PDFH1{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+#button{
+  position: absolute;
+  height: 50px;
+  font-size: 20px;
+  text-align:center;
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+}
+#button img{
+  height: 100%;
+}
+#LostPlaceMap iframe{
+  width: 100%;
+  height: 100%;
+}
+#messageBoardTittle{
+  margin-left: 25px;
+  font-size: 30px;
+}
+#messageBoard textarea{
+  background-color: #F1F2F3;
+}
+#messageBoard textarea:focus,#messageBoard textarea:hover{
+  background-color: white;
+}
+#messageBoard textarea:focus{
+  height: 80px;
+  transition-duration: 500ms;
+}
+
+.replyDiv{
+  width: 95%;
+  text-align: left;
+}
+.replyName{
+  float:left;
+  font-size: 20px;
+  color: #61666d;
+  margin-top: 5px;
+}
+.replyTime{
+  color: #61666d;
+}
+.replyDiv textarea{
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+.replyText{
+  margin-top: 10px;
+}
+.replyText{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+textarea{
+  padding: 10px;
+}
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,0 +1,287 @@
+@media screen and (max-width: 768px) {
+#post {
+width: 90%;
+height: auto;
+border: 1px solid black;
+margin: auto;
+margin-top: 15px;
+padding: 0px;
+position: relative;
+background-color: white;
+border-radius: 10px;
+}
+#post55 {
+background-image: url(../web_image/post.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+#postState {
+width: 100%;
+display: table;
+cursor: pointer;
+}
+#postState table {
+width: 80%;
+margin: auto;
+text-align: center;
+font-weight: bold;
+color: grey;
+}
+#postState_1 {
+color: blue;
+}
+#postState_1 div {
+border: 1px solid blue;
+}
+#postState div {
+display: inline-block;
+}
+.postState {
+font-size: 20px;
+}
+.postState div {
+text-align: center;
+border: 1px solid black;
+border-radius: 100px;
+height: 25px;
+width: 25px;
+}
+#inputData {
+position: relative;
+height: auto;
+}
+#inputData_page1, #inputData_page2 {
+border-top: 1px solid black;
+position: relative;
+height: auto;
+background-color: white;
+}
+#InputFormP2 {
+width: 90%;
+}
+#uploadPhotoDiv, #mapIframe {
+width: 90%;
+height: 250px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+display: inline-block;
+}
+#uploadPhotoDiv {
+margin-left: 0px;
+width: 90%;
+height: 350px;
+}
+#displayInputImage {
+border: 1px solid black;
+}
+#mapIframe {
+position: static;
+width: 90%;
+height: 250px;
+left: auto;
+border: 1px solid black;
+border-radius: 10px;
+display: none;
+}
+#mapIframe iframe {
+border-radius: 10px;
+width: 100%;
+height: 100%;
+}
+#displayInputImage {
+border: 2px solid black;
+border-radius: 15px;
+width: 90%;
+height: 250px;
+overflow: hidden;
+margin-top: 5px;
+}
+#displayInputImage img {
+border-radius: 15px;
+height: 100%;
+}
+#inputPetDataDiv {
+display: inline-block;
+position: static;
+top: auto;
+border: 2px solid black;
+width: 90%;
+height: auto;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+input[type=radio] {
+width: 1.2em;
+height: 1.2em;
+}
+#postTypeBackground {
+position: static;
+border-radius: 10px;
+padding: 5px;
+top: auto;
+left: auto;
+margin: auto;
+margin-top: 30px;
+}
+input[name=postType] {
+display: none;
+}
+.label {
+cursor: pointer;
+font-size: 20px;
+border: 1px solid black;
+padding: 6px;
+z-index: 0;
+margin: 0px;
+border-radius: 10px;
+user-select: none;
+}
+#postTypeBlock {
+position: static;
+left: auto;
+z-index: 1;
+background-color: white;
+margin-top: 30px;
+}
+#findTypelbl:hover {
+background-image: linear-gradient(#40e540, #0ba00b);
+color: white;
+}
+#lostTypelbl:hover {
+background-image: linear-gradient(#ed696a, #ed2121);
+color: white;
+}
+#InputFormP1, #InputFormP2, #InputFormP3 {
+display: inline-block;
+border: 1px solid black;
+position: static;
+width: 90%;
+height: auto;
+top: auto;
+left: auto;
+right: auto;
+bottom: auto;
+padding: 5px;
+border-radius: 10px;
+padding-left: 20px;
+padding-top: 20px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+#form_inputVariety_div, #form_inputSex_div, #form_inputChip_div {
+font-weight: bold;
+display: inline-block;
+font-size: 18px;
+padding: 5px;
+}
+#form_inputChip_div {
+margin-left: 0px;
+}
+#lostDay, #lostTime, #lostArea, #lost_Area, #weiduId {
+display: inline-block;
+margin: 5px;
+font-size: 20px;
+font-weight: bold;
+}
+#lostTime {
+margin-left: 30px;
+}
+#lostDay input[type="date"], #lostTime input[type="time"], #lostArea select, #weiduId input {
+border: 0px;
+border-bottom: 1px solid black;
+}
+#lostArea select, #lostPetDidian {
+padding: 2px;
+width: 100%;
+font-size: 16px;
+text-align: center;
+}
+#lostPetDidian {
+border: 0px;
+border-bottom: 1px solid black;
+text-align: left;
+}
+.changePageBtn {
+font-weight: bold;
+padding: 7px;
+position: static;
+font-size: 16px;
+border-radius: 10px;
+cursor: pointer;
+display: block;
+margin: auto;
+margin-top: 20px;
+}
+#NextPage {
+color: #2e79e0;
+border: 1px solid #2e79e0;
+background-color: white;
+display: block;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#NextPage:hover {
+background-color: #2e79e0;
+color: white;
+}
+#formSubmitBtn {
+border: 1px solid black;
+display: block;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 60px;
+}
+#lastPage {
+border: 1px solid black;
+display: block;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#lastPage:hover {
+background-color: black;
+color: white;
+}
+#select_Area option {
+text-align: center;
+}
+#select_Area {
+font-size: 18px;
+width: 100%;
+}
+#getWeiDuDiv {
+display: inline-block;
+border: 1px solid black;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+width: 90%;
+margin: auto;
+margin-top: 20px;
+margin-bottom:20px;
+}
+#getWeiDuDiv label {
+cursor: pointer;
+}
+.phoneNumberInput, .otherConnectInput {
+border: 0px;
+border-bottom: 1px solid black;
+margin-top: 20px;
+font-size: 18px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+.form_inputWeiDu input {
+text-align: center;
+font-size: 15px;
+}
+.weidu {
+width: 100px;
+}
+}
